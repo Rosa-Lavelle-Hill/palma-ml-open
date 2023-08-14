@@ -1,5 +1,4 @@
-# palma-ml-open
-How the Predictors of Math Achievement Change over Time: A Longitudinal Machine Learning Approach
+# How the Predictors of Math Achievement Change over Time: A Longitudinal Machine Learning Approach
 
 Note that this repository, does not include any data files. Datafiles can be granted upon reasonable request to the authors.
 
