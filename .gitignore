@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+*.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Images/Outputs
+*.png
+*.pdf
+*.jpeg
+*.jpg
+*.txt
+*.zip
+*.pkl
+
+# Txt exceptions
+!requirements.txt
+
+## Data
+Data/*
+*/Modelling_Data/*
+*/Processed_Data/*
+*.csv
+*.numbers
+*.xlsx
+*.dot
+*.doc
+*.sav
+
+#Outputs
+*/Outputs/Modelling/*
+*/Outputs/Runtimes/*
+Preprocess_Outputs/Modelling_dfs/df_Ns/*
+
+# C extensions
+*.so

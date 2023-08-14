@@ -1,0 +1,13 @@
+,vars,abs_cor
+10,"movs, calcs",0.64
+0,"gma_jz, parental_expectation_math_grade",0.61
+3,"selre, pos_affect",0.61
+4,"effor, selre",0.6
+5,"selre, intrinsic_motiv",0.59
+1,"sges_T1, gma_jz",0.58
+2,"par, csupt",0.56
+6,"self_efficacy, parental_expectation_math_grade",0.55
+11,"enths, calcs",0.55
+7,"fvals, exval",0.54
+8,"moins, selre",0.51
+9,"selre, self_efficacy",0.5
