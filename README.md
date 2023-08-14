@@ -6,4 +6,4 @@ This repository includes all initial analyses ran for the "next year prediction"
 
 Note: all 8 analyses were ran both with and without "sges_T1" (previous math ability). The same methodology as Analysis 3 in the "next year prediction" was implemented for "varying lag prediction" ("Predict_X_years_ahead").
 
-Note that this repository does not include any data files. Data files can be granted upon reasonable request to the authors.
+This repository does not include any data files. Data files can be granted upon reasonable request to the authors.
