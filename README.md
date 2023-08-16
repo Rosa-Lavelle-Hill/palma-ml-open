@@ -1,9 +1,14 @@
 # How the Predictors of Math Achievement Change over Time: A Longitudinal Machine Learning Approach
 
-This repository includes all initial analyses ran for the "next year prediction" (Analyses 1-8) and "varying lag prediction" ("Predict_X_years_ahead"). The results presented for the "next year prediction" in the article are those from Analysis 3. The code and results from all analyses conducted are uploaded here for full transparency.
+This repository includes code for the analyses presented in the paper "How the Predictors of Math Achievement Change over Time:
+A Longitudinal Machine Learning Approach" (Lavelle-Hill et al., preprint).
 
-![](https://github.com/Rosa-Lavelle-Hill/palma-ml-open/blob/master/Analy_overview.png)
+For the "_next year prediction_" analysis see "Analysis_2" for prediction and "Analysis 3" for the SHAP interpretation analysis.
+For the "_varying lag prediction_" see "Predict_X_years_ahead" for prediction and interpretation.
 
-Note: all 8 analyses were ran both with and without "sges_T1" (previous math ability). The same methodology as Analysis 3 in the "next year prediction" was implemented for "varying lag prediction" ("Predict_X_years_ahead").
+Note that this repository does not include any data files. Data files can be granted upon reasonable request to the authors.
 
-This repository does not include any data files. Data files can be granted upon reasonable request to the authors.
+**Reference**
+
+Lavelle-Hill, R., Lichtenfeld, S., Sakaki, M., Goetz, T., Frenzel, A., Smith., G, Marsh, H., Pekrun, R., & Murayama, K. 
+(preprint). How the Predictors of Math Achievement Change over Time: A Longitudinal Machine Learning Approach.
