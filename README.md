@@ -11,5 +11,5 @@ Note that this repository does not include any data files. Data files can be gra
 **Reference**
 
 Lavelle-Hill, R., Lichtenfeld, S., Sakaki, M., Goetz, T., Frenzel, A., Smith., G, Marsh, H., Pekrun, R., & Murayama, K. 
-(preprint). How the Predictors of Math Achievement Change over Time: A Longitudinal Machine Learning Approach.
-https://osf.io/feupm
+(preprint). How the Predictors of Math Achievement Change over Time: A Longitudinal Machine Learning Approach. 
+https://osf.io/upb7f/
