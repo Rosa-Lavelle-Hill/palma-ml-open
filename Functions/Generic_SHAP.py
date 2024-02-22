@@ -66,7 +66,7 @@ def SHAP_enet(X, y, df_num, save_csv_path, enet_shap_dfs_dict,
     X_test_tr_df.to_csv(modelling_data_save + "/{}/Transformed_preprocessor/".format(model) +
                   "df{}_X_test_transformed.csv".format(df_num))
     # Fit the explainer
-    explainer = shap.LinearExplainer(elastic_net_regression, X_test, feature_pertubation="correlation_dependent")
+    explainer = shap.LinearExplainer(elastic_net_regression, X_test)
 
     # Calculate the SHAP values and save
     shap_dict = explainer(X_test)
@@ -134,7 +134,7 @@ def SHAP_rf(X, y, df_num, save_csv_path, rf_shap_dfs_dict,
     X_test_tr_df.to_csv(modelling_data_save + "{}/Transformed_preprocessor/".format(model) +
                   "df{}_X_test_transformed.csv".format(df_num))
     # Fit the explainer
-    explainer = shap.TreeExplainer(random_forest_regression, X_test, feature_pertubation="tree_path_dependent")
+    explainer = shap.TreeExplainer(random_forest_regression, X_test)
 
 
     # Calculate the SHAP values and save
@@ -160,7 +160,7 @@ def SHAP_tree_interaction(save_path, X, y, df_num, start_string,
                                                          'regression__min_samples_split'],
                                                      random_state=rf_params['regression__random_state'],
                                                      n_estimators=rf_params['regression__n_estimators'])
-    explainer = shap.TreeExplainer(random_forest_regression, feature_pertubation="tree_path_dependent")
+    explainer = shap.TreeExplainer(random_forest_regression, X_test)
     shap_values = explainer.shap_values(X_test)
     shap_values_df = pd.DataFrame(shap_values, columns=names)
 
