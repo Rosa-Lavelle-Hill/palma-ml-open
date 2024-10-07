@@ -10,4 +10,4 @@ Note that this repository does not include any data files. Data files can be gra
 
 **Reference**
 
-Lavelle-Hill, R., Frenzel, A. C., Goetz, T., Lichtenfeld, S., Marsh, H. W., Pekrun, R., Sakaki, M., Smith, G., & Murayama, K. (2024). How the predictors of math achievement change over time: A longitudinal machine learning approach.Journal of Educational Psychology. Advance online publication. https://doi.org/10.1037/edu0000863
+Lavelle-Hill, R., Frenzel, A. C., Goetz, T., Lichtenfeld, S., Marsh, H. W., Pekrun, R., Sakaki, M., Smith, G., & Murayama, K. (2024). How the predictors of math achievement change over time: A longitudinal machine learning approach. Journal of Educational Psychology. Advance online publication. https://doi.org/10.1037/edu0000863
